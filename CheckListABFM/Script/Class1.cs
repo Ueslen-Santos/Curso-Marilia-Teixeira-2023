@@ -93,11 +93,11 @@ namespace VMS.TPS
            
             if (modeloPhoton == "AAA_15606" || modeloPhoton == "AcurosXB_15606")
             {
-                dicionarioCheck.Add("check2", RPN[0]);
+                dicionarioCheck.Add("check2", RPN[1]);
             }
             else
             {
-                dicionarioCheck.Add("check2", RPN[1]);
+                dicionarioCheck.Add("check2", RPN[0]);
             }
 
 
@@ -135,12 +135,12 @@ namespace VMS.TPS
                     if (bolusInseridoBeams)
                     {
                         // Campos possuem bolus
-                        dicionarioCheck.Add("check3", RPN[0]);                     
+                        dicionarioCheck.Add("check3", RPN[1]);                     
                     }
                     else
                     {
                         //Algum campo não possui bolus
-                        dicionarioCheck.Add("check3", RPN[1]);                     
+                        dicionarioCheck.Add("check3", RPN[0]);                     
                     }
                 }
                 else
