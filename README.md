@@ -1,5 +1,5 @@
 # Curso Marilia Teixeira 2023
-<img src="URL_da_Imagem" alt="Check List ABFM">
+<img src="https://github.com/Ueslen-Santos/Curso-Marilia-Teixeira-2023/blob/main/img-check-list.png" alt="Check List ABFM">
 
 
 
